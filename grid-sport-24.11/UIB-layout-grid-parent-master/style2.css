@@ -1,0 +1,30 @@
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(100px,350px) 1fr minmax(100px,350px)  ;
+    grid-template-rows: repeat(3,350px);
+    gap: 10px;
+    overflow: hidden;
+    border: 15px solid rgb(245, 107, 107);
+}
+
+/* .container > div{
+    background-color: yellowgreen;
+} */
+
+img{
+    width: 100%;
+}
+
